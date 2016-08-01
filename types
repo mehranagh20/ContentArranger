@@ -1,0 +1,42 @@
+zip :
+	application/gzip
+	application/zip
+	application/x-rar
+
+programs :
+	application/java-archive (apk)
+
+files that open in other programs :
+	application/octet-stream
+
+pdf:
+	application/pdf
+
+binary executable :
+	application/x-executable
+
+audio :
+	audio/mpeg
+	audio/x-flac
+	audio/x-wav
+	
+image :
+	image/gif
+	image/jpeg
+	image/png
+	image/webp
+	image/vnd.djvu
+	image/svg+xml
+
+text :
+	text/html
+	text/plain
+	text/x-c
+	text/x-c++
+	text/x-shellscript
+	text/x-makefile
+
+vide :
+	video/mp4
+	video/x-matroska
+	video/x-m4v
