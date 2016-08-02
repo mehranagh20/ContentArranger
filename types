@@ -1,42 +1,45 @@
 zip :
-	application/gzip
-	application/zip
-	application/x-rar
+	RAR archive data...
+	Zip archive data...
 
 programs :
-	application/java-archive (apk)
-
-files that open in other programs :
-	application/octet-stream
+	Java archive data....(.jar, .apk)
+	PE32 executable...
+	PE32+ executable..
 
 pdf:
-	application/pdf
+	PDF document...
 
-binary executable :
-	application/x-executable
 
 audio :
-	audio/mpeg
-	audio/x-flac
-	audio/x-wav
+	Audio file with ...
+	MPEG ADTS, layer III.. (mp3)
+	RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 44100 Hz
+	
 	
 image :
-	image/gif
-	image/jpeg
-	image/png
-	image/webp
-	image/vnd.djvu
-	image/svg+xml
-
+	... image data...
+	
 text :
-	text/html
-	text/plain
-	text/x-c
-	text/x-c++
-	text/x-shellscript
-	text/x-makefile
+	...ASCII text
+	ASCII text, with CRLF line terminators
+	ACCII text, with long lines ...........
+	C source, ASCII text, ....
+	C source, UTF-8 Unicode text,....
+	C++ source, ASCII text...
+	DOS batch file, ASCII text...
+	HTML document, ASCII text
+	HTML document, UTF-8 Unicode (with BOM) text, with CRLF line terminators...
+	Little-endian UTF-16 Unicode text,...
+	ISO-8859 text....
+	Microsoft Word...
+	PHP script, ISO-8859 text...
+	...UTF-8 Unicode ... text...
+	
+
 
 vide :
-	video/mp4
-	video/x-matroska
-	video/x-m4v
+	ISO Media, MP4...
+	Matroska data
+	RIFF (little-endian) data, AVI, 352 x 288, 25.00 fps, video: XviD, audio: MPEG-1 Layer 3 (.AVI)...
+	
