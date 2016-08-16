@@ -1,0 +1,39 @@
+
+Usage: Arrange [OPTIONs] ... [FOLDER]
+will arrange the FOLDER base on options or will change settings.
+
+OPTIONS: 
+Words with all upper case letters are necessary arguments with corresponding option.
+
+ --help	         will show help.
+
+
+
+
+ --add           with SAMPLEFILE and FOLDERNAME will add type of specified
+                 sample file too FOLDERNAME from now on.in order to make
+                 the program leave a fileType and not to arrange it 
+                 add a sample file to -1 folder.
+
+ --remove        with SAMPLEFILE and FOLDERNAME will remove type of specified
+                 sample file that is in FOLDERNAME.
+
+
+
+ --log           with FOLDER will arrange specified folder and create a log file 
+                 in order to recover what is done.
+
+
+
+ --off           with FOLDER will arrange specified folder without considering
+                 program default type arrange, will just use user defined types
+                 used --add option to arrange specified fodler.
+
+
+ --recover       with LOGFILE will recover what was done earlier to a folder
+                 that resulted LOGFILE.
+
+
+
+ --reset         will reset user defined types, after this command
+                 there is no more specified types, just default ones.
