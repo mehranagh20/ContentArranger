@@ -104,7 +104,7 @@ def arrange(folderName, defaultT=True, flag=False, processNum=10, commandLine=Fa
         try:
             print(datetime.date.today())
             logFile = open(os.path.join(folderName, str(datetime.date.today()) + '.txt'), 'w')
-            print(folderName, file=logFile)
+            print(os.path.abspath(folderName), file=logFile)
         except IOError:
             if commandLine:
                 print('could not create logfile .')
@@ -381,3 +381,4 @@ def main():
 
 
 if __name__ == '__main__': main()
+
