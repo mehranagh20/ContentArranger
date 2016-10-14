@@ -52,6 +52,8 @@ def scanFiles(folderName, defaultT=True, commandLine=False):
 
     processList = []
     for file in os.listdir(folderName):
+        if file[0] == '.':
+            continue
         path = os.path.join(folderName, file)
         if not os.path.isfile(path) or os.path.isdir(path): continue
         try:
